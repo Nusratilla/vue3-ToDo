@@ -29,9 +29,13 @@ button {
   cursor: initial;
 }
 
-body {
+.app {
   background: var(--light);
   color: var(--dark);
+  max-width: 600px;
+  padding: 1rem;
+  margin: auto;
+  border-radius: 0.5rem;
 }
 
 section {
