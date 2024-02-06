@@ -91,7 +91,7 @@ const removeTodo = todo => {
 
 watch(todos, (newValue) => {
   localStorage.setItem('todos', JSON.stringify(newValue))
-}, { deep: true }) // it helps to change cconstantly
+}, { deep: true }) // it helps to change constantly
 
 watch(name, (newValue) => {
   localStorage.setItem('name', newValue)
